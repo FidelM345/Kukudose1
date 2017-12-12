@@ -8,14 +8,20 @@
 
     <string name="names125"> names</string>
 
-    <string name="home">Home</string>
+    <string name="home"><u>Home</u></string>
     <string name="newcaste">Symptoms</string>
 
     <string-array name="clubs">
 
+        <item>chelsea</item>
+        <item>manu</item>
+        <item>liverpool</item>
+
     </string-array>
 
-    <string name="names12">&#8226;name1<br />&#8226;name2<br /></string>
+    <string name="names12">
+        &#8226;name1\n&#8226;name2
+    </string>
 
     <string name="bullet">
 
@@ -26,5 +32,10 @@
                <li>Everton\n</li>
           </ul>
 
+    </string>
+
+
+    <string name="new_sign1">
+        &#8226;Running Nose\n &#8226;Sneezing\n &#8226;Coughing\n
     </string>
 </resources>

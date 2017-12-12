@@ -25,14 +25,9 @@ public class Home_Activity extends AppCompatActivity
         setContentView(R.layout.activity_home_);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        TextView listView=(TextView) findViewById(R.id.textme) ;
+       
 
-       String man=getResources().getStringArray(R.array.)
-
-
-
-
-
+        // String man=getResources().getStringArray(R.array.)
 
 
 

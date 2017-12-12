@@ -6,32 +6,32 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/home1"
             android:title="Home" />
         <item
             android:id="@+id/nav_table"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/vaccine_table"
             android:title="Vaccine Table" />
         <item
             android:id="@+id/nav_contacts"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/vet_contacts"
             android:title="Veterinary contacts" />
         <item
             android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/maps"
             android:title="Nearby Agro-Vets" />
 
         <item
             android:id="@+id/nav_videos"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/training"
             android:title="Training Videos" />
         <item
         android:id="@+id/nav_hygene"
-        android:icon="@drawable/ic_menu_manage"
+        android:icon="@drawable/hygene_tips"
         android:title="Hygene Tips" />
         <item
             android:id="@+id/nav_organism"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/organism_info"
             android:title="Micro-Organism Info" />
 
 

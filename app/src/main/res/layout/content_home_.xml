@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.widget.RelativeLayout
+<android.widget.ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -9,13 +9,36 @@
     tools:context="com.example.fidelmomolo.kukudose1.Home_Activity"
     tools:showIn="@layout/app_bar_home_">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/textme"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
 
-</android.widget.RelativeLayout>
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnCount="2"
+            android:rowCount="8"
+
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false"
+
+            android:padding="14dp">
+
+
+
+
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</android.widget.ScrollView>
