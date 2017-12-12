@@ -1,5 +1,6 @@
 package com.example.fidelmomolo.kukudose1;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -13,39 +14,25 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
+
+import com.miguelcatalan.materialsearchview.MaterialSearchView;
 
 public class Home_Activity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+    MaterialSearchView searchView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("Kuku Dose");
         setSupportActionBar(toolbar);
-       
 
-        // String man=getResources().getStringArray(R.array.)
-
-
-
-
-
-
-
-
-
-
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -55,6 +42,66 @@ public class Home_Activity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+
+        search_code();
+    }
+
+    private void search_code() {
+        searchView=(MaterialSearchView)findViewById(R.id.search_view);
+        searchView.setSuggestions(getResources().getStringArray(R.array.clubs));
+
+        searchView.setHint("Quick disease search");
+
+        searchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
+           @Override
+           public boolean onQueryTextSubmit(String query) {
+
+
+               return false;
+           }
+
+           @Override
+           public boolean onQueryTextChange(String newText) {
+               return false;
+           }
+       });
+
+
+
+       searchView.setOnSearchViewListener(new MaterialSearchView.SearchViewListener() {
+           @Override
+           public void onSearchViewShown() {
+
+           }
+
+           @Override
+           public void onSearchViewClosed() {
+
+           }
+       });
+
+
+       searchView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+           @Override
+           public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+               String query=String.valueOf(parent.getItemAtPosition(position)).toUpperCase();
+
+
+               if(query.equals("CHELSEA")){
+
+                   Toast.makeText(Home_Activity.this,"You have clicked"+query,Toast.LENGTH_LONG).show();
+
+                   return;
+
+               }
+
+
+
+           }
+       });
+
     }
 
     @Override
@@ -62,7 +109,14 @@ public class Home_Activity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         if (drawer.isDrawerOpen(GravityCompat.START)) {
             drawer.closeDrawer(GravityCompat.START);
-        } else {
+        } else if(searchView.isSearchOpen()){
+
+            searchView.closeSearch();
+        }
+
+
+
+        else {
             super.onBackPressed();
         }
     }
@@ -71,6 +125,9 @@ public class Home_Activity extends AppCompatActivity
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.home_, menu);
+
+        MenuItem item= menu.findItem(R.id.action_search255);
+        searchView.setMenuItem(item);
         return true;
     }
 
@@ -82,11 +139,17 @@ public class Home_Activity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_TTS) {
+            Toast.makeText(Home_Activity.this,"You have selected TTS",Toast.LENGTH_LONG).show();
+            return true;
+        }
+       else if (id == R.id.action_settings) {
+            Toast.makeText(Home_Activity.this,"You have selected settings",Toast.LENGTH_LONG).show();
             return true;
         }
 
-        return super.onOptionsItemSelected(item);
+        else {
+        return super.onOptionsItemSelected(item);}
     }
 
     @SuppressWarnings("StatementWithEmptyBody")

@@ -11,28 +11,30 @@
     <string name="home"><u>Home</u></string>
     <string name="newcaste">Symptoms</string>
 
-    <string-array name="clubs">
 
+
+           <!--Main interface categories-->
+    <string name="Respiratory"> Respiratory</string>
+    <string name="behavioral"> Behavioural</string>
+    <string name="Nutritional"> Nutritional</string>
+    <string name="Intestinal"> Intestinal</string>
+    <string name="Parasitic"> Parasitic</string>
+
+
+
+
+
+
+    <string-array name="clubs">
         <item>chelsea</item>
         <item>manu</item>
         <item>liverpool</item>
-
     </string-array>
 
     <string name="names12">
         &#8226;name1\n&#8226;name2
     </string>
 
-    <string name="bullet">
-
-          <ul>
-              <li>Text with</li>"
-               <li>Manchester\n</li>
-               <li>Liverpool\n</li>
-               <li>Everton\n</li>
-          </ul>
-
-    </string>
 
 
     <string name="new_sign1">

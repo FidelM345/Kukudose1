@@ -9,27 +9,322 @@
     tools:context="com.example.fidelmomolo.kukudose1.Home_Activity"
     tools:showIn="@layout/app_bar_home_">
 
-    <LinearLayout
+
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+
+     <TextView
+         android:layout_gravity="center_horizontal"
+         android:text="Disease Categories"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
 
 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+     <GridLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:columnCount="2"
+         android:rowCount="8"
 
-        >
+         android:alignmentMode="alignMargins"
+         android:columnOrderPreserved="false"
+
+         android:padding="7dp">
+
+         <android.support.v7.widget.CardView
+             android:layout_height="180dp"
+             android:layout_width="0dp"
+             android:padding="0dp"
+             android:layout_columnWeight="1"
+
+             android:layout_margin="10dp"
+             app:cardElevation="18dp"
+             app:cardCornerRadius="1dp">
+
+             <LinearLayout
+
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <ImageView
+                     android:scaleType="centerCrop"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="3"
+                     android:src="@drawable/chelsea"/>
+                 <TextView
+                     android:layout_gravity="center_horizontal"
+                     android:text="@string/Respiratory"
+                     android:textAlignment="center"
+                     android:textColor="@android:color/black"
+                     android:textSize="18sp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="0dp"
+                     android:layout_weight="1" />
+
+
+             </LinearLayout>
+
+         </android.support.v7.widget.CardView>
+         <android.support.v7.widget.CardView
+             android:layout_height="180dp"
+             android:layout_width="0dp"
+             android:padding="0dp"
+             android:layout_columnWeight="1"
+
+             android:layout_margin="10dp"
+             app:cardElevation="18dp"
+             app:cardCornerRadius="1dp">
+
+             <LinearLayout
+
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <ImageView
+                     android:scaleType="centerCrop"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="3"
+                     android:src="@drawable/chelsea"/>
+                 <TextView
+                     android:layout_gravity="center_horizontal"
+                     android:text="@string/behavioral"
+                     android:textAlignment="center"
+                     android:textColor="@android:color/black"
+                     android:textSize="18sp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="0dp"
+                     android:layout_weight="1" />
+
+
+             </LinearLayout>
+
+         </android.support.v7.widget.CardView>
+         <android.support.v7.widget.CardView
+             android:layout_height="180dp"
+             android:layout_width="0dp"
+             android:padding="0dp"
+             android:layout_columnWeight="1"
+
+             android:layout_margin="10dp"
+             app:cardElevation="18dp"
+             app:cardCornerRadius="1dp">
+
+             <LinearLayout
+
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <ImageView
+                     android:scaleType="centerCrop"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="3"
+                     android:src="@drawable/chelsea"/>
+                 <TextView
+                     android:layout_gravity="center_horizontal"
+                     android:text="@string/Intestinal"
+                     android:textAlignment="center"
+                     android:textColor="@android:color/black"
+                     android:textSize="18sp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="0dp"
+                     android:layout_weight="1" />
+
+
+             </LinearLayout>
+
+         </android.support.v7.widget.CardView>
+         <android.support.v7.widget.CardView
+             android:layout_height="180dp"
+             android:layout_width="0dp"
+             android:padding="0dp"
+             android:layout_columnWeight="1"
+
+             android:layout_margin="10dp"
+             app:cardElevation="18dp"
+             app:cardCornerRadius="1dp">
+
+             <LinearLayout
+
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <ImageView
+                     android:scaleType="centerCrop"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="3"
+                     android:src="@drawable/chelsea"/>
+                 <TextView
+                     android:layout_gravity="center_horizontal"
+                     android:text="@string/Parasitic"
+                     android:textAlignment="center"
+                     android:textColor="@android:color/black"
+                     android:textSize="18sp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="0dp"
+                     android:layout_weight="1" />
+
+
+             </LinearLayout>
+
+         </android.support.v7.widget.CardView>
+         <android.support.v7.widget.CardView
+             android:layout_height="180dp"
+             android:layout_width="0dp"
+             android:padding="0dp"
+             android:layout_columnWeight="1"
+
+             android:layout_margin="10dp"
+             app:cardElevation="18dp"
+             app:cardCornerRadius="1dp">
+
+             <LinearLayout
+
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <ImageView
+                     android:scaleType="centerCrop"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="3"
+                     android:src="@drawable/chelsea"/>
+                 <TextView
+                     android:layout_gravity="center_horizontal"
+                     android:text="Am the beast"
+                     android:textAlignment="center"
+                     android:textColor="@android:color/black"
+                     android:textSize="18sp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="0dp"
+                     android:layout_weight="1" />
+
+
+             </LinearLayout>
+
+         </android.support.v7.widget.CardView>
+         <android.support.v7.widget.CardView
+             android:layout_height="180dp"
+             android:layout_width="0dp"
+             android:padding="0dp"
+             android:layout_columnWeight="1"
+
+             android:layout_margin="10dp"
+             app:cardElevation="18dp"
+             app:cardCornerRadius="1dp">
+
+             <LinearLayout
+
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <ImageView
+                     android:scaleType="centerCrop"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="3"
+                     android:src="@drawable/chelsea"/>
+                 <TextView
+                     android:layout_gravity="center_horizontal"
+                     android:text="Am the beast"
+                     android:textAlignment="center"
+                     android:textColor="@android:color/black"
+                     android:textSize="18sp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="0dp"
+                     android:layout_weight="1" />
+
+
+             </LinearLayout>
+
+         </android.support.v7.widget.CardView>
+         <android.support.v7.widget.CardView
+             android:layout_height="180dp"
+             android:layout_width="0dp"
+             android:padding="0dp"
+             android:layout_columnWeight="1"
+
+             android:layout_margin="10dp"
+             app:cardElevation="18dp"
+             app:cardCornerRadius="1dp">
+
+             <LinearLayout
+
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <ImageView
+                     android:scaleType="centerCrop"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="3"
+                     android:src="@drawable/chelsea"/>
+                 <TextView
+                     android:layout_gravity="center_horizontal"
+                     android:text="Am the beast"
+                     android:textAlignment="center"
+                     android:textColor="@android:color/black"
+                     android:textSize="18sp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="0dp"
+                     android:layout_weight="1" />
+
+
+             </LinearLayout>
+
+         </android.support.v7.widget.CardView>
+         <android.support.v7.widget.CardView
+             android:layout_height="180dp"
+             android:layout_width="0dp"
+             android:padding="0dp"
+             android:layout_columnWeight="1"
+
+             android:layout_margin="10dp"
+             app:cardElevation="18dp"
+             app:cardCornerRadius="1dp">
+
+             <LinearLayout
+
+                 android:orientation="vertical"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+
+                 <ImageView
+                     android:scaleType="centerCrop"
+                     android:layout_width="match_parent"
+                     android:layout_height="0dp"
+                     android:layout_weight="3"
+                     android:src="@drawable/chelsea"/>
+                 <TextView
+                     android:layout_gravity="center_horizontal"
+                     android:text="Am the beast"
+                     android:textAlignment="center"
+                     android:textColor="@android:color/black"
+                     android:textSize="18sp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="0dp"
+                     android:layout_weight="1" />
+
+
+             </LinearLayout>
+
+         </android.support.v7.widget.CardView>
 
 
 
 
-        <GridLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:columnCount="2"
-            android:rowCount="8"
-
-            android:alignmentMode="alignMargins"
-            android:columnOrderPreserved="false"
-
-            android:padding="14dp">
 
 
 
@@ -37,8 +332,19 @@
 
 
 
-        </GridLayout>
 
-    </LinearLayout>
+
+
+
+     </GridLayout>
+
+
+ </LinearLayout>
+
+
+
+
+
+
 
 </android.widget.ScrollView>
