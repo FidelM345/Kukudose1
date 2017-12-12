@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fidelmomolo.kukudose1.TypesActivity"
+    tools:showIn="@layout/activity_types">
+
+
+    <TextView
+        android:id="@+id/diseaseType_txtView"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Avian-influenza"
+        android:autoSizeTextType="uniform"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/under_line"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/diseaseType_imageView"/>
+</LinearLayout>
