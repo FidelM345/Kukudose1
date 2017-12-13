@@ -30,9 +30,14 @@
     </string-array>
 
     <string-array name="web_description">
-        <item> CDC</item>
-        <item> Afya center</item>
-        <item> Mkulima Young</item>
+        <item> Fresh Eggs Daily</item>
+        <item> Poultry site</item>
+        <item> Papaak.com</item>
+        <item> SmallHolder.co.uk</item>
+        <item> BackYards Chickens</item>
+        <item> Reddit.com</item>
+        <item> Poultry World</item>
+        <item> Feed Spot</item>
     </string-array>
 
     <string name="names12">
@@ -44,4 +49,5 @@
         &#8226;Running Nose\n &#8226;Sneezing\n &#8226;Coughing\n
     </string>
     <string name="title_activity_website">Website</string>
+    <string name="title_activity_vaccine__table">Vaccine_Table</string>
 </resources>

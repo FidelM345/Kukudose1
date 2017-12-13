@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.fidelmomolo.kukudose1.Vaccine_Table"
+    tools:showIn="@layout/activity_vaccine__table"
+
+     android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+
+<android.widget.LinearLayout
+    android:orientation="vertical"
+
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TableLayout
+
+        android:background="#FFFFFF"
+        android:stretchColumns="0,1,2,3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+
+            android:background="#455A64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="AGE"
+                android:textStyle="bold"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="VACCINE"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold"
+                android:text="MODE OF\nADMINISTRATION"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+
+            android:background="#455A64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <TextView
+
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Day old"
+
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Mareks"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Subcutaneous"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+
+            android:background="#455A64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <TextView
+
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Day 10"
+
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Gumboro"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Driking Water"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+
+            android:background="#455A64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <TextView
+
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="Day 18"
+
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Gumboro"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Driking Water"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+
+            android:background="#455A64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <TextView
+
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="3 Weeks"
+
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Newcastle"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Driking water\nEye drop"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+
+            android:background="#455A64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <TextView
+
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="3 Weeks"
+
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Fowl Pox"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Wing Web stab"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+
+            android:background="#455A64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <TextView
+
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="6 Weeks"
+
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Fowl Pox"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Wing Web stab"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+
+            android:background="#455A64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <TextView
+
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8 Weeks"
+
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Fowl Typhoid"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Intramuscular\ninjection"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+        </TableRow>
+        <TableRow
+
+            android:background="#455A64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <TextView
+
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="8 Weeks"
+
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Newcastle"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Driking water\nEye drop"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+
+            android:background="#455A64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <TextView
+
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="18 Weeks"
+
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Newcastle"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Driking water\nEye drop"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+
+        </TableRow>
+        <TableRow
+
+            android:background="#455A64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="1dp">
+
+            <TextView
+
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+                android:text="19 Weeks"
+
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="De-Worming"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+            <TextView
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="10dp"
+
+                android:text="Drinking Water"
+                android:textColor="#FAFAFA"
+                android:textSize="16sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+
+
+
+
+</android.widget.LinearLayout>
+</ScrollView>

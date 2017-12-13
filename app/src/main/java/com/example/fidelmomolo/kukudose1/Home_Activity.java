@@ -208,6 +208,12 @@ public class Home_Activity extends AppCompatActivity
             startActivity(i);
 
         }
+        else if (id == R.id.nav_table) {
+            Intent i=new Intent(this,Vaccine_Table.class);
+            startActivity(i);
+
+        }
+
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
