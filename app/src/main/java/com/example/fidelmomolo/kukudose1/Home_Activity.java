@@ -2,9 +2,12 @@ package com.example.fidelmomolo.kukudose1;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.speech.RecognizerIntent;
+import android.speech.tts.TextToSpeech;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.text.Html;
+import android.text.TextUtils;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -21,9 +24,14 @@ import android.widget.Toast;
 
 import com.miguelcatalan.materialsearchview.MaterialSearchView;
 
+import java.util.ArrayList;
+import java.util.Locale;
+
 public class Home_Activity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener,TextToSpeech.OnInitListener  {
     MaterialSearchView searchView;
+    TextToSpeech engine;
+    float pitchRate=1f,speedRate=1f;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,14 +52,22 @@ public class Home_Activity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
-        search_code();
+        search_code();// calling search view to act
+
+        engine=new TextToSpeech(this,this);//initiallizing the TTS engine
+
+
+
+
+
     }
 
     private void search_code() {
         searchView=(MaterialSearchView)findViewById(R.id.search_view);
-        searchView.setSuggestions(getResources().getStringArray(R.array.clubs));
+    //    searchView.setSuggestions(getResources().getStringArray(R.array.clubs));
 
         searchView.setHint("Quick disease search");
+        searchView.setVoiceSearch(true);
 
         searchView.setOnQueryTextListener(new MaterialSearchView.OnQueryTextListener() {
            @Override
@@ -104,6 +120,23 @@ public class Home_Activity extends AppCompatActivity
 
     }
 
+    //handling miguel catalan voice requests
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == MaterialSearchView.REQUEST_VOICE && resultCode == RESULT_OK) {
+            ArrayList<String> matches = data.getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+            if (matches != null && matches.size() > 0) {
+                String searchWrd = matches.get(0);
+                if (!TextUtils.isEmpty(searchWrd)) {
+                    searchView.setQuery(searchWrd, false);
+                }
+            }
+
+            return;
+        }
+        super.onActivityResult(requestCode, resultCode, data);
+    }
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -141,6 +174,7 @@ public class Home_Activity extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_TTS) {
             Toast.makeText(Home_Activity.this,"You have selected TTS",Toast.LENGTH_LONG).show();
+            speak();
             return true;
         }
        else if (id == R.id.action_settings) {
@@ -169,9 +203,54 @@ public class Home_Activity extends AppCompatActivity
         } else if (id == R.id.nav_organism) {
 
         }
+        else if (id == R.id.nav_websites) {
+            Intent i=new Intent(this,Website.class);
+            startActivity(i);
+
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
+
+    @Override
+    public void onInit(int status) {
+    //It hosts the tts engine
+
+        if(status==TextToSpeech.SUCCESS){
+
+            engine.setLanguage(Locale.UK);
+        }
+
+
+    }
+
+
+    private void speak() {
+        engine.setPitch(pitchRate);
+        engine.setSpeechRate(speedRate);
+
+        String man="am the beast";
+        String lady="practise makes perfect";
+
+        String[]clubs=new String[]{
+
+                "The categories of poultry diseases discussed in the app include:",
+                "1. Respiratory diseases",
+                "2. Behavioural diseases",
+                "3. Intestinal diseases"
+
+
+        };
+
+        for (int i=0;i<clubs.length;i++){
+
+            engine.speak(clubs[i]+"\n",TextToSpeech.QUEUE_ADD,null,null);}
+
+    }
+
+
 }

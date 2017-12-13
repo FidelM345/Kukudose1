@@ -12,23 +12,27 @@
     <string name="newcaste">Symptoms</string>
 
 
-
-           <!--Main interface categories-->
+    <!--Main interface categories-->
     <string name="Respiratory"> Respiratory</string>
     <string name="behavioral"> Behavioural</string>
     <string name="Nutritional"> Nutritional</string>
     <string name="Intestinal"> Intestinal</string>
     <string name="Parasitic"> Parasitic</string>
+    <string name="Skin"> Skin infections</string>
+    <string name="lame"> Lameness</string>
+    <string name="fungi"> Fungal</string>
 
 
+    <string-array name="images">
+        <item> R.drawable.chicken1</item>
+        <item> R.drawable.chicken1</item>
+        <item> R.drawable.chicken1</item>
+    </string-array>
 
-
-
-
-    <string-array name="clubs">
-        <item>chelsea</item>
-        <item>manu</item>
-        <item>liverpool</item>
+    <string-array name="web_description">
+        <item> CDC</item>
+        <item> Afya center</item>
+        <item> Mkulima Young</item>
     </string-array>
 
     <string name="names12">
@@ -36,8 +40,8 @@
     </string>
 
 
-
     <string name="new_sign1">
         &#8226;Running Nose\n &#8226;Sneezing\n &#8226;Coughing\n
     </string>
+    <string name="title_activity_website">Website</string>
 </resources>

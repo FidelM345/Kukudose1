@@ -13,9 +13,9 @@
             android:icon="@drawable/vaccine_table"
             android:title="Vaccine Table" />
         <item
-            android:id="@+id/nav_contacts"
-            android:icon="@drawable/vet_contacts"
-            android:title="Veterinary contacts" />
+            android:id="@+id/nav_websites"
+            android:icon="@drawable/websites"
+            android:title="More Info Websites" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/maps"
@@ -33,6 +33,11 @@
             android:id="@+id/nav_organism"
             android:icon="@drawable/organism_info"
             android:title="Micro-Organism Info" />
+
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/vet_contacts"
+            android:title="Veterinary contacts" />
 
 
     </group>
