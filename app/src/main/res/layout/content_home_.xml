@@ -17,6 +17,8 @@
 
      <TextView
          android:layout_gravity="center_horizontal"
+         android:textStyle="bold"
+         android:textSize="15sp"
          android:text="Disease Categories"
          android:layout_width="wrap_content"
          android:layout_height="wrap_content" />
@@ -31,7 +33,7 @@
          android:alignmentMode="alignMargins"
          android:columnOrderPreserved="false"
 
-         android:padding="7dp">
+         android:padding="5dp">
 
          <android.support.v7.widget.CardView
              android:layout_height="180dp"
@@ -201,7 +203,7 @@
                      android:src="@drawable/chelsea"/>
                  <TextView
                      android:layout_gravity="center_horizontal"
-                     android:text="Am the beast"
+                     android:text="@string/lame"
                      android:textAlignment="center"
                      android:textColor="@android:color/black"
                      android:textSize="18sp"
@@ -237,7 +239,7 @@
                      android:src="@drawable/chelsea"/>
                  <TextView
                      android:layout_gravity="center_horizontal"
-                     android:text="Am the beast"
+                     android:text="@string/Skin"
                      android:textAlignment="center"
                      android:textColor="@android:color/black"
                      android:textSize="18sp"
@@ -273,7 +275,7 @@
                      android:src="@drawable/chelsea"/>
                  <TextView
                      android:layout_gravity="center_horizontal"
-                     android:text="Am the beast"
+                     android:text="@string/Nutritional"
                      android:textAlignment="center"
                      android:textColor="@android:color/black"
                      android:textSize="18sp"

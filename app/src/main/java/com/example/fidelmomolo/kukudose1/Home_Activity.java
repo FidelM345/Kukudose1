@@ -2,6 +2,7 @@ package com.example.fidelmomolo.kukudose1;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.speech.tts.TextToSpeech;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.text.Html;
@@ -21,9 +22,13 @@ import android.widget.Toast;
 
 import com.miguelcatalan.materialsearchview.MaterialSearchView;
 
+import java.util.Locale;
+
 public class Home_Activity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener,TextToSpeech.OnInitListener  {
     MaterialSearchView searchView;
+    TextToSpeech engine;
+    float pitchRate=1f,speedRate=1f;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,7 +49,13 @@ public class Home_Activity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
-        search_code();
+        search_code();// calling search view to act
+
+        engine=new TextToSpeech(this,this);//initiallizing the TTS engine
+
+
+
+
     }
 
     private void search_code() {
@@ -141,6 +152,7 @@ public class Home_Activity extends AppCompatActivity
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_TTS) {
             Toast.makeText(Home_Activity.this,"You have selected TTS",Toast.LENGTH_LONG).show();
+            speak();
             return true;
         }
        else if (id == R.id.action_settings) {
@@ -174,4 +186,44 @@ public class Home_Activity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
+
+    @Override
+    public void onInit(int status) {
+    //It hosts the tts engine
+
+        if(status==TextToSpeech.SUCCESS){
+
+            engine.setLanguage(Locale.UK);
+        }
+
+
+    }
+
+
+    private void speak() {
+        engine.setPitch(pitchRate);
+        engine.setSpeechRate(speedRate);
+
+        String man="am the beast";
+        String lady="practise makes perfect";
+
+        String[]clubs=new String[]{
+
+                "The categories of poultry diseases discussed in the app include:",
+                "1. Respiratory diseases",
+                "2. Behavioural diseases",
+                "3. Intestinal diseases"
+
+
+        };
+
+        for (int i=0;i<clubs.length;i++){
+
+            engine.speak(clubs[i]+"\n",TextToSpeech.QUEUE_ADD,null,null);}
+
+    }
+
+
 }

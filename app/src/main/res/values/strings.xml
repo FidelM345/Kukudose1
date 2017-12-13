@@ -19,7 +19,9 @@
     <string name="Nutritional"> Nutritional</string>
     <string name="Intestinal"> Intestinal</string>
     <string name="Parasitic"> Parasitic</string>
-
+    <string name="Skin"> Skin infections</string>
+    <string name="lame"> Lameness</string>
+    <string name="fungi"> Fungal</string>
 
 
 
