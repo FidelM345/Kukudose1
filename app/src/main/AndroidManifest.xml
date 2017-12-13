@@ -37,6 +37,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
         </activity>
+        <activity
+            android:name=".Respiratory_Disease"
+            android:label="@string/title_activity_respiratory__disease"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
     </application>
 
 </manifest>

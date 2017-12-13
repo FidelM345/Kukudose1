@@ -50,4 +50,5 @@
     </string>
     <string name="title_activity_website">Website</string>
     <string name="title_activity_vaccine__table">Vaccine_Table</string>
+    <string name="title_activity_respiratory__disease">Respiratory_Disease</string>
 </resources>
