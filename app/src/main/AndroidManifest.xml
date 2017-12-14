@@ -127,6 +127,68 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
         </activity>
+        <activity
+            android:name=".FowlPoxActivity"
+            android:label="@string/title_activity_fowl_pox"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MitesAndLiceActivity"
+            android:label="@string/title_activity_mites_and_lice"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".GumboroActivity"
+            android:label="@string/title_activity_gumboro"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".WormActivity"
+            android:label="@string/title_activity_worm"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".StickLightActivity"
+            android:label="@string/title_activity_stick_light"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".MycoticActivity"
+            android:label="@string/title_activity_mycotic"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AspergillosisActivity"
+            android:label="@string/title_activity_aspergillosis"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".PolyneuritisActivity"
+            android:label="@string/title_activity_polyneuritis"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
     </application>
 
 </manifest>

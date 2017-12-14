@@ -136,11 +136,11 @@
 
     <!--Nervous Diseases Beginning-->
     <!--Marek's Beginning-->
-    <string name= "Mareks_About1">also referred to as visceral leukosis, fowl paralysis, and range paralysis Also is a type of Avian Cancer.</string>
+    <string name="Mareks_About1">also referred to as visceral leukosis, fowl paralysis, and range paralysis Also is a type of Avian Cancer.</string>
 
     <string name="Mareks_Cause">Caused by a virus.Tumors in nerves cause lameness and paralysis.Tumors can occur in the eyes and cause irregularly shaped pupils and blindness. Tumors of the liver, kidney, spleen, gonads, pancreas, proventriculus, lungs, muscles, and skin cause incoordination, unthriftiness, paleness, weak labored breathing, and enlarged feather follicles. In the later stages of an infection, birds become emaciated and have pale, scaly combs and greenish diarrhea.</string>
 
-    <string name= "Marek_Signs">
+    <string name="Marek_Signs">
         &#8226;Inability to use or raise the wings\n\n
         &#8226;Partial paralysis\n\n
         &#8226;Blindness\n\n
@@ -261,6 +261,8 @@
     <string name="MycoplasmaGallisepticum_Control">Treatment </string>
     <string name="MycoplasmaGallisepticum_Control1">Control and Prevention:The most effective measure for keeping breeders free of MM is to perform periodic blood testing </string>
     <!--MycoplasmaGallisepticum Ending-->
+    <!--Lamness Diseases Ending-->
+
 
     <string name="title_activity_website">Website</string>
     <string name="title_activity_vaccine__table">Vaccine_Table</string>
@@ -274,4 +276,12 @@
     <string name="title_activity_fowl_typhoid">Fowl Typhoid</string>
     <string name="title_activity_mycoplasma_gallisepticum">MycoplasmaGallisepticumActivity</string>
     <string name="title_activity_mareks">MareksActivity</string>
+    <string name="title_activity_fowl_pox">FowlPoxActivity</string>
+    <string name="title_activity_mites_and_lice">MitesAndLiceActivity</string>
+    <string name="title_activity_gumboro">GumboroActivity</string>
+    <string name="title_activity_worm">WormActivity</string>
+    <string name="title_activity_stick_light">StickLightActivity</string>
+    <string name="title_activity_mycotic">MycoticActivity</string>
+    <string name="title_activity_aspergillosis">AspergillosisActivity</string>
+    <string name="title_activity_polyneuritis">PolyneuritisActivity</string>
 </resources>
