@@ -9,13 +9,13 @@ import android.view.View;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-public class Respiratory_Disease extends AppCompatActivity {
-ListView listView;
+public class Nutritional extends AppCompatActivity {
+    ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_respiratory__disease);
+        setContentView(R.layout.activity_nutritional);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -34,7 +34,6 @@ ListView listView;
         ListAdapter lady=new CustomAdapter(this,description,imgid);
 
         listView.setAdapter(lady);
-
     }
 
 }

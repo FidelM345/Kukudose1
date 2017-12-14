@@ -46,6 +46,69 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
         </activity>
+        <activity
+            android:name=".Behaviral_Disease"
+            android:label="@string/title_activity_behaviral__disease"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
+        <activity
+            android:name=".Intestine"
+            android:label="@string/title_activity_intestine"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
+        <activity
+            android:name=".Lame"
+            android:label="@string/title_activity_lame"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
+        <activity
+            android:name=".Skin_disease"
+            android:label="@string/title_activity_skin_disease"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
+        <activity
+            android:name=".Parasitic"
+            android:label="@string/title_activity_parasitic"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
+        <activity
+            android:name=".Nutritional"
+            android:label="@string/title_activity_nutritional"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
+        <activity
+            android:name=".Fungal"
+            android:label="@string/title_activity_fungal"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
     </application>
 
 </manifest>

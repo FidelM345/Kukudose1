@@ -9,16 +9,14 @@ import android.view.View;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-public class Respiratory_Disease extends AppCompatActivity {
+public class Fungal extends AppCompatActivity {
 ListView listView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_respiratory__disease);
+        setContentView(R.layout.activity_fungal);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         listView=(ListView) findViewById(R.id.list_res);
 
         String[]description=getResources().getStringArray(R.array.Respiratory_diseases);

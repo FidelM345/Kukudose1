@@ -9,19 +9,17 @@ import android.view.View;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-public class Respiratory_Disease extends AppCompatActivity {
-ListView listView;
-
+public class Lame extends AppCompatActivity {
+    ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_respiratory__disease);
+        setContentView(R.layout.activity_lame);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        listView=(ListView) findViewById(R.id.list_lame);
 
-        listView=(ListView) findViewById(R.id.list_res);
-
-        String[]description=getResources().getStringArray(R.array.Respiratory_diseases);
+        String[]description=getResources().getStringArray(R.array.lame_diseases);
 
         Integer[] imgid={
                 R.drawable.fresheggs,
@@ -34,7 +32,6 @@ ListView listView;
         ListAdapter lady=new CustomAdapter(this,description,imgid);
 
         listView.setAdapter(lady);
-
     }
 
 }

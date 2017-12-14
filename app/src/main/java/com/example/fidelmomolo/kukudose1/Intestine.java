@@ -9,32 +9,30 @@ import android.view.View;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-public class Respiratory_Disease extends AppCompatActivity {
-ListView listView;
+public class Intestine extends AppCompatActivity {
+    ListView listView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_respiratory__disease);
+        setContentView(R.layout.activity_intestine);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        listView=(ListView) findViewById(R.id.list_res);
+        listView=(ListView) findViewById(R.id.list_intestine);
 
-        String[]description=getResources().getStringArray(R.array.Respiratory_diseases);
+        String[]description=getResources().getStringArray(R.array.Intestinal_diseases);
 
         Integer[] imgid={
                 R.drawable.fresheggs,
                 R.drawable.avian_influenza,
-                R.drawable.infectious_bronchitis,
-                R.drawable.laryngotracheitis
+                R.drawable.pluro
 
         };
 
         ListAdapter lady=new CustomAdapter(this,description,imgid);
 
         listView.setAdapter(lady);
-
     }
 
 }
