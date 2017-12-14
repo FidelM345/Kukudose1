@@ -58,8 +58,8 @@
 
     <string-array name="Intestinal_diseases">
         <item> Fowl Typhoid</item>
-        <item> Colibacillosis</item>
-        <item> Pullorum Disease</item>
+        <item> Gumboro</item>
+        <item> Worms</item>
 
     </string-array>
 
@@ -86,10 +86,9 @@
 
 
     <string-array name="lame_diseases">
-        <item> Viral Athritis</item>
-        <item> Bumble Foot</item>
+        <item> Marek's Disease</item>
+        <item> Fowl Typhoid</item>
         <item> Fowl cholera</item>
-        <item> Mycoplasma Gallisipetum</item>
 
     </string-array>
 
@@ -97,17 +96,232 @@
     <string-array name="skin_diseases">
         <item> Fowl pox</item>
         <item> Mites</item>
-
+        <item> Mycoplasma</item>
 
     </string-array>
 
+    <!--specific Diseases Headers-->
+    <string name="AboutHeader">About</string>
+    <string name="CauseHeader">Cause</string>
+    <string name="SignsHeader">Signs and Symptoms</string>
+    <string name="TreatmentHeader">Treatment</string>
+    <string name="ControlHeader">Control and Preventive</string>
 
-    <string name="new_sign1">
-        &#8226;Running Nose\n &#8226;Sneezing\n &#8226;Coughing\n
+    <!--specific Diseases-->
+    <!--Respiratory Diseases Beginning-->
+    <!--NewCastle Beginning-->
+    <string name="Newcastle_About">About</string>
+    <string name="Newcastle_About1">Newcastle,also called pneumoencephalitis, is caused by paramyxovirus. The highly contagious and lethal form of Newcastle disease is known as viscerotropic velogenic Newcastle disease, or VVND.</string>
+
+
+    <string name="Newcastle_cause">Cause</string>
+    <string name="Newcastle_cause1">Viral disease. The Newcastle virus can be transmitted through the air within short distances. Sick birds can transfer the virus directly to flock mates through body secretions and fecal material. The virus can also contaminate shoes, persons who work with or near birds, tires, dirty equipment, feed sacks, crates, and so on, and be transmitted from flock to flock. Wild birds are another source of infection. The Newcastle virus is transmitted through the egg, but infected embryos typically die before hatching.</string>
+
+
+    <string name="Newcastle_signs">Signs and Symptoms</string>
+    <string name="Newcastle_Signs1">The three forms of Newcastle disease are categorized on the basis of the severity of their clinical signs.\n\n
+        &#8226;The lentogenic form is mildly pathogenic.\n\n
+        &#8226;The mesogenic form is moderately pathogenic.\n\n
+        &#8226;The velogenic form, or VVND, is highly pathogenic.\n\n
+        &#8226;Mortality can range from 10% to 80% depending on the virus strain.\n</string>
+
+    <string name="Newcastle_Signs2"> Disease is characterized by a sudden onset of symptoms, which include hoarse chirps (in chicks), watery discharge from the nostrils, labored breathing (gasping), facial swelling, paralysis, trembling, and twisting of the neck. The twisting of the neck, or torticollis, is a sign that the central nervous system is affected. In adult laying birds, symptoms also include decreased feed and water consumption and a dramatic drop in egg production.</string>
+
+
+    <string name="Newcastle_treatment">Treatment</string>
+    <string name="Newcastle_treament1">Treatment.There is no specific treatment for Newcastle disease. Antibiotics can be given for three to five days to prevent secondary bacterial infections (antibiotics do not affect viruses). Increasing the brooding temperature for chicks by 5°F may help reduce losses.</string>
+    <!--NewCastle Ending-->
+
+    <!--Avian Influenza Beginning-->
+    <string name="AvianInfluenza_About">About</string>
+
+    <string name="AvianInfluenza_About1">Also called flu, bird flu, influenza, and fowl plague</string>
+
+    <string name="AvianInfluenza_cause">Cause</string>
+    <string name="AvianInfluenza_cause1">Caused by a virus.This illness can occur in most species of birds. Wild birds, most commonly waterfowl, can introduce the virus to domesticated flocks. The virus is released in secretions from the nostrils and in the manure of infected birds. Insects and rodents may carry the virus from infected to susceptible flocks. AI can also be spread as a result of improper disposal of dead birds and manure, and by contaminated shoes, clothing, crates, and other equipment. The AI virus can remain viable for long periods of time at moderate temperatures and can live indefinitely in frozen material..</string>
+
+    <string name="AvianInfluenza_signs">Signs and Symptoms</string>
+    <string name="AvianInfluenza_signs1">The virus is released in secretions from the nostrils and in the manure of infected birds. Insects and rodents may carry the virus from infected to susceptible flocks. AI can also be spread as a result of improper disposal of dead birds and manure, and by contaminated shoes, clothing, crates, and other equipment.</string>
+
+    <string name="AvianInfluenza_Treatment">Treatment</string>
+    <string name="AvianInfluenza_Treatment1">When birds contract the mildly pathogenic form, good husbandry, proper nutrition, and broad spectrum antibiotics may reduce losses from secondary infections. Recov Treatment:ered flocks will continue to shed the virus. Vaccines may be used only with a special permit. Depopulation is required for some types of mildly pathogenic AI because the virus has the ability to mutate to a more pathogenic form. </string>
+
+    <string name="AvianInfluenza_Control">Control and Preventive</string>
+    <string name="AvianInfluenza_Control1">Prevention requires establishment and enforcement of a rigorous biosecurity program.</string>
+    <!--Avian Influenza Ending-->
+
+    <!--Infectious Bronchities Beginning-->
+    <string name="InfectiousBronchities_About">About</string>
+    <string name="InfectiousBronchities_About1">also referred to simply as bronchitis or a cold, is a virus that affects chickens. </string>
+
+    <string name="InfectiousBronchities_Cause">Cause</string>
+    <string name="InfectiousBronchities_Cause1">The virus is spread through the air and on feed bags, infected dead birds, and rodents. The virus can also be transmitted through the egg to developing embryos, but an affected embryo typically does not hatch.</string>
+
+    <string name="InfectiousBronchities_signs">Signs and Symptoms</string>
+    <string name="InfectiousBrochities_signs1">&#8226;Consumption of feed and water declines.\n\n
+        &#8226;Sick chickens chirp and have watery discharge from the eyes and nostrils.\n\n
+        &#8226;Young chickens have labored breathing and might gasp. Breathing noises are more noticeable at night while the chickens are resting.\n\n
+        &#8226;Egg production among laying hens drops. (Production should recover in five to six weeks, but it will remain lower that previous levels.)\n\n
+        &#8226;The infectious bronchitis virus can infect different parts of the body, including the reproductive system. When a hen's reproductive system is infected, the shells of the hen's eggs can become rough and misshapen, and the egg whites can become watery.\n\n</string>
+
+    <string name="InfectiousBronchities_Treatment">Treatment</string>
+    <string name="InfectiousBronchities_Treatment1"> Administering antibiotcs for three to five days may aid in fighting off any secondary bacterial infections. For brooding chicks, it is helpful to raise the room temperature 5°F until symptoms go away.</string>
+
+    <string name="InfectiousBronchities_control">Prevention and Control</string>
+    <string name="InfectiousBronchities_control1"> Prevention and Control:An effective biosecurity program is the best method of preventing infectious bronchitis. Such a plan should include rodent control. Vaccinations are available.</string>
+    <!--Infectious Bronchities Ending-->
+
+    <!--Laryngotracheitis Beginning-->
+    <string name="Laryngotracheitis_About">About</string>
+    <string name="Laryngotracheitis_About1">Is a virus that affects chickens and pheasants. Chickens 14 weeks and older are more susceptible to this illness than are young chickens. As a result, most outbreaks occur in mature hens. </string>
+
+    <string name="Laryngotracheities_Cause">Cause</string>
+    <string name="Laryngotracheities_Cause1">is a virus that affects chickens and pheasants. </string>
+
+    <string name="Laryngotracheitis_Signs">Signs and Symptoms</string>
+    <string name="Laryngotracheitis_Signs1">The first clinical sign of the disease that producers typically noticed is watery eyes. Affected birds remain quiet because breathing is difficult. Affected birds progress to coughing, sneezing, and shaking of the head to dislodge cheesy material (referred to as a plug) in the windpipe. Birds typically extend their heads and necks to facilitate breathing. Inhalation produces a wheezing and gurgling sound. Many birds die from suffocation as a result of the plugs in their windpipes.</string>
+
+
+    <string name="Laryngotracheitis_Treatment">Treatment</string>
+    <string name="Laryngotracheitis_Treatment1">You can administer antibiotics to infected birds to prevent secondary infections, but the antibiotics will have no affect on the virus. For small flocks, you can use swabs to remove plugs from gasping birds. It is important to remember, however, that infected birds will continue to be carriers of the disease.</string>
+
+    <string name="Larngtresceities_Control">Control and Prevention</string>
+    <string name="Larngtresceities_Control1">Control and Prevention:To prevent the spread of the virus, it is important to incinerate dead birds. Implementing and maintaining an effective biosecurity program will also help prevent the introduction and spread of the disease. A vaccine is available to prevent infection. For small flocks, it is recommended that the vaccine be administered to each bird with the eye-drop method.</string>
+    <!--Laryngotracheitis Ending-->
+    <!--Respiratory Diseases Ending-->
+
+    <!--Nervous Diseases Beginning-->
+    <!--Marek's Beginning-->
+    <string name= "Mareks_About1">also referred to as visceral leukosis, fowl paralysis, and range paralysis Also is a type of Avian Cancer.</string>
+
+    <string name="Mareks_Cause">Caused by a virus.Tumors in nerves cause lameness and paralysis.Tumors can occur in the eyes and cause irregularly shaped pupils and blindness. Tumors of the liver, kidney, spleen, gonads, pancreas, proventriculus, lungs, muscles, and skin cause incoordination, unthriftiness, paleness, weak labored breathing, and enlarged feather follicles. In the later stages of an infection, birds become emaciated and have pale, scaly combs and greenish diarrhea.</string>
+
+    <string name= "Marek_Signs">
+        &#8226;Inability to use or raise the wings\n\n
+        &#8226;Partial paralysis\n\n
+        &#8226;Blindness\n\n
+        &#8226;Ataxia (lack of muscle control)\n\n
+        &#8226;Emanciation\n\n
     </string>
+
+    <string name="MareksDisease_treatment">Currently there is no treatment for Marek\'s disease.</string>
+
+    <string name="MareksDisease_Prevention">Vaccinations are usually available in hatcheries. All newly hatched birds should be vaccinated for Marek\'s disease.</string>
+    <!--Marek's Ending-->
+
+    <!--Eastern Equine Encephalitis Beginning-->
+    <string name="EasternEquineEncephalitis_About">About</string>
+    <string name="EasternEquineEncephalitis_About1">Is a virus typically carried by infected mosquitoes. Birds (especially pheasants, chukar partridges, and emus), mammals (especially horses), and people can contract this virus. Birds are the major source of the virus.</string>
+
+    <string name="EasternEquineEncephalitis_Causes">Causes</string>
+    <string name="EasternEquineEncephalitis_Causes1"> Culiseta melanura mosquito is the primary transmitter of the virus to poultry. Other mosquito species carry the disease too, but they feed mostly on other animals. Once a flock is infected, the disease can spread as birds cannibalize sick or dead members of the flock.</string>
+
+    <string name="EasternEquineEncephalitis_Signs">Signs and Symptoms</string>
+    <string name="EasternEquineEncephalitis_Signs1"> Affected birds show reduced feed consumption, staggering, and paralysis. Surviving birds may be blind and may have muscle paralysis and difficulty holding their heads up. Equine encephalitis affects the nervous system. Damage to a bird\'s nervous system varies depending on the species. In pheasants, there is pronounced leg paralysis, twisting of the neck, and tremors. Mortality is usually high among these birds. Chukar partridges and turkeys show drowsiness, paralysis, weakness, and death.</string>
+
+    <string name="EasternEquineEncephalitis_Treatment">Treatment</string>
+    <string name="EasternEquineEncephalitis_Treatment1">No treatment available for this disease.
+    </string>
+
+    <string name="EasternEquineEncephalitis_Control">Control and Prevention</string>
+    <string name="EasternEquineEncephalitis_Control1">To prevent this disease remove the source of the infectionmosquitoes. It is also possible to vaccinate birds, especially pheasants, with the vaccine prepared for horses. The recommended dose for a bird is one-tenth of the dose a horse would receive.</string>
+    <!--EasternEquineEncephalitis Ending-->
+
+    <!--FowlCholera Beginning-->
+    <string name="FowlCholera_About">About</string>
+    <string name="FowlCholera_About1">is a bacterial infection </string>
+
+    <string name="FowlCholera_Cause">Cause</string>
+    <string name="FowlCholera_Cause1">Infected birds are a major source of infection, spreading bacteria through secretions from the mouth, nose, and eyes that contaminate feed and water. This type of bacteria is not typically shed in fecal material.</string>
+
+    <string name="FowlCholera_Signs">Signs and Symptoms</string>
+    <string name="FowlCholera_Signs1">
+
+        &#8226; Reduced feed consumption.\n\n
+
+        &#8226;lethargy as well as darkened heads (purplish discoloration of wattles and combs).\n\n
+
+        &#8226; Birds might exhibit swollen heads, wattles, foot pads, and joints.\n\n</string>
+
+    <string name="FowlCholera_Treatment">Treatment</string>
+    <string name="FowlCholera_Treatment1">Fowl Cholera is caused by a bacterium, it can be treated with antibiotics. </string>
+
+    <string name="FowlCholera_Control">Control and Prevention</string>
+    <string name="FowlCholera_Control1">Thorough sanitation, rodent control, and a rigorous biosecurity plan are essential to preventing infection. Vaccines are available to aid in the control of an outbreak within a flock. However, vaccination is not recommended unless fowl cholera is already present and problematic on a farm. </string>
+    <!--Fowl Cholera Beginning-->
+    <!--Nervous Diseases Ending-->
+
+    <!--Lamness Diseases Beginning-->
+    <!--Fowl Typhoid Beginning-->
+    <string name="FowlTyphoid_About">About</string>
+    <string name="FowlTyphoid_About1">Is a disease caused by the bacterium Salmonella gallinarium.
+        Poultry are natural hosts for this bacterium.
+    </string>
+
+    <string name="FowlTyphoid_Cause">Cause</string>
+    <string name="FowlTyphoid_Cause1">Fowl typhoid can be introduced into a flock by wild birds,
+        mammals, and flies. Within a flock, fowl typhoid is spread by bird-to-bird contact as well
+        as through cannibalism of infected carcasses, wound contamination, and fecal contamination
+        of feed, water, and litter. In addition, the bacteria can spread to chicks in the egg, as
+        when eggs come from a contaminated hatchery.
+    </string>
+
+    <string name="FowlTyphoid_Signs">Signs and Symptoms</string>
+    <string name="FowlTyphoid_Signs1">Chicks hatched from eggs infected with Salmonella gallinarium
+        sicken and die within weeks of hatching. Infected chicks exhibit weakness, poor appetite,
+        and stunted growth, and they may make shrill chirping and peeping sounds. In addition, their
+        droppings are chalky white. Signs of this disease may not appear for the first five to ten
+        days after infection. However, unlike pullorum disease, fowl typhoid has a tendency to
+        affect growing or mature birds. Mortality in young birds is similar to that of pullorum
+        disease, but it can be higher in older birds.
+    </string>
+
+    <string name="FowlTyphoid_Treatment">Treatment</string>
+    <string name="FowlTyphoid_Treatment1">Treatment is not feasible. Recovered birds have a tendency
+        to become carriers. It is best to depopulate a flock that tests positive for Salmonella
+        gallinarium.
+    </string>
+
+    <string name="FowlTyphoid_Control">Control and Prevention</string>
+    <string name="FowlTyphoid_Control1">Maintain a rigorous biosecurity program.To prevent fowl
+        typhoid, obtain your birds or hatching eggs from a hatchery participating in the National
+        Poultry Improvement Plan (NPIP).Do not mix NPIP-certified flocks with noncertified birds.
+    </string>
+    <!--Fowl Typhoid Ending-->
+    <!--Lamness Diseases Beginning-->
+
+    <!--MycoplasmaGallisepticum Beginning-->
+    <string name="MycoplasmaGallisepticum_About">About </string>
+    <string name="MycoplasmaGallisepticum_About1">also known as chronic respiratory disease (CRD), infectious sinusitis, and mycoplasmosis.are bacteria that lack a cell wall. </string>
+
+    <string name="MycoplasmaGallisepticum_Cause">Cause </string>
+    <string name="Mycoplasmagallisepticum_Cause1">Are bacteria that lack a cell wall </string>
+
+    <string name="MycoplasmaGallisepticum_Signs">Signs and Symptoms </string>
+    <string name="MycoplasmaGallisepticum_Signs1">Signs and Symptoms:Coughing
+        &#8226; Sneezing
+        &#8226; Shaking of the head
+        &#8226; Rales
+        &#8226; Gasping
+        &#8226; Discharge from the eyes
+        &#8226;Discharge from the nose
+        &#8226; Swelling of the face and/or wattles
+        &#8226; Retarded growth
+        &#8226; General diarrhea
+        &#8226; Prostration </string>
+
+
+    <string name="MycoplasmaGallisepticum_Treatment">Treatment </string>
+    <string name="MycoplasmaGallisepticum_Treatment1">Several antibiotics have been effective in treating. </string>
+
+    <string name="MycoplasmaGallisepticum_Control">Treatment </string>
+    <string name="MycoplasmaGallisepticum_Control1">Control and Prevention:The most effective measure for keeping breeders free of MM is to perform periodic blood testing </string>
+    <!--MycoplasmaGallisepticum Ending-->
+
     <string name="title_activity_website">Website</string>
     <string name="title_activity_vaccine__table">Vaccine_Table</string>
     <string name="title_activity_respiratory__disease">Respiratory_Disease</string>
+
     <string name="title_activity_behaviral__disease">Behaviral_Disease</string>
     <string name="title_activity_intestine">Intestine</string>
     <string name="title_activity_lame">Lame</string>
@@ -115,4 +329,14 @@
     <string name="title_activity_parasitic">Parasitic</string>
     <string name="title_activity_nutritional">Nutritional</string>
     <string name="title_activity_fungal">Fungal</string>
+
+    <string name="title_activity_new_castle">NewCastle</string>
+    <string name="title_activity_avian_influenza">Avian Influenza</string>
+    <string name="title_activity_infectious_bronchities">Infectious Bronchities</string>
+    <string name="title_activity_laryngotracheitis">Laryngotracheitis</string>
+    <string name="title_activity_eastern_equine_encephalitis">Eastern Equine Encephalitis</string>
+    <string name="title_activity_fowl_cholera">Fowl Cholera</string>
+    <string name="title_activity_fowl_typhoid">Fowl Typhoid</string>
+    <string name="title_activity_mycoplasma_gallisepticum">MycoplasmaGallisepticumActivity</string>
+    <string name="title_activity_mareks">MareksActivity</string>
 </resources>

@@ -33,6 +33,8 @@ ListView listView;
         ListAdapter lady=new CustomAdapter(this,description,imgid);
 
         listView.setAdapter(lady);
+
+
     }
 
 }

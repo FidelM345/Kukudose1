@@ -25,7 +25,7 @@ public class Skin_disease extends AppCompatActivity {
         Integer[] imgid={
                 R.drawable.fresheggs,
                 R.drawable.avian_influenza,
-
+                R.drawable.avian_influenza
 
         };
 
