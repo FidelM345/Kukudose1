@@ -13,11 +13,6 @@
             android:name=".Home_Activity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Website"
@@ -188,6 +183,20 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".TreatmentApplicationActivity"
+            android:label="@string/title_activity_treatment_application"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

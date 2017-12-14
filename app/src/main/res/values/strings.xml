@@ -263,6 +263,42 @@
     <!--MycoplasmaGallisepticum Ending-->
     <!--Lamness Diseases Ending-->
 
+    <!--Treatment Application Beginning-->
+
+    <string name="VaccinationGeneralHeader">Vaccination Methods in Poultry.</string>
+    <string name="IndividualVaccinationHeader">INDIVIDUAL BIRD APPLICATION METHODS OF POULTRY VACCINATION</string>
+    <string name="SubcutaneousHeader">Subcutaneous injection</string>
+    <string name="SubcutaneousContent">Subcutaneous injection: Marek’s Disease vaccine in the hatchery. Inactivated vaccines such as Newcastle Disease Virus, Infectious Bronchitis Virus, Reovirus and Infectious Bursal Disease Virus may be given to Breeder Hens at housing by subcutaneous injection into the back of the mid-neck region.</string>
+    <string name="ConjunctivalHeader">Conjunctival sac installation</string>
+    <string name="ConjunctivalContent">Conjunctival sac installation: (eyedrop) Newcastle Disease, Infectious Bronchitis, Infectious Laryngotracheitis vaccines. One hand holds the head, thumb pressing the lower eyelid down, deposit one drop into the eye, said to be faster operation than transnasal drop.</string>
+    <string name="WingWebHeader">Wing-web puncture</string>
+    <string name="WingWebContent">Wing-web puncture: Fowl Pox (pigeon pox), and Avian Encephalomyelitis, Fowl Cholera chickens. Use double-prong sewing machine needle (supplied by vaccine manufacturer), dip into vaccine before each stab, spread the wing to expose the underside (up), stab through, do not touch feather with needles, avoid vessels. For fowl pox, examine for “take” 6-10 days post, swelling followed by scab formation. Revaccinate non-reactor flock. To vaccinate turkeys, puncture the loose skin between the thigh and abdomen.</string>
+    <string name="FeatherFollicleHeader">Feather follicle inoculation</string>
+    <string name="FeatherFollicleContent">Feather follicle inoculation: Fowl pox vaccine in turkeys. Remove 2-3 feather follicles over the thigh, brush against the opening of the follicle with vaccine-dipped brush (supplied) or the vaccine may be sprayed on the area with a sprayer, hold the tip 2?-3? away. Examine for “take” 6-10 days post.</string>
+    <string name="IntramuscularHeader">Intramuscular injection</string>
+    <string name="IntramuscularContent">Intramuscular injection: Vaccines (Infectious Bursal Disease, Newcastle Disease, Mycoplasma gallisepticum Fowl Cholera, Infectious Bronchitis, Reovirus) alone or in combination are used in Breeder birds usually just before housing. IM injection is in the pectoral muscles, using continuous flow, automatic syringe.</string>
+    <string name="EmbryoHeader">Embryo Injection</string>
+    <string name="EmbryoContent">Embryo Injection: Vaccines (Marek’s Disease, Infectious Bursal Disease, Newcastle Disease or Infectious Bronchitis) are injected into 18 day old embryonating eggs with an automated machine.</string>
+    <string name="FlockVaccinationHeader">METHODS OF POULTRY VACCINATION  FLOCK APPLICATION</string>
+    <string name="AerosolHeader">Aerosol</string>
+    <string name="AerosolContent">Aerosol: Infectious Bronchitis vaccine, Newcastle Disease vaccine, and Laryngotracheitis vaccine. Day or night, house closed sufficiently to prevent cross drafts, use sprayer recommended by vaccine manufacturer, minimum spraying time 3-4 minutes, do not open the house for 15 minutes. Protect worker with goggles and face mask. Now also done in a spray cabinet at day one in hatchery for administering Newcastle-Bronchitis and Infectious Bursal Disease.</string>
+    <string name="WaterAdministrationHeader">Water Administration</string>
+    <string name="WaterAdministrationContent">Water Administration: Newcastle disease, Infectious Bronchitis, (or the two combined), Avian Encephalomyelitis, Infectious Bursal Disease and Infectious Laryngotracheitis vaccines. Waterer with plastic bottom or glass container best, free of sanitizer in water or container, withhold water one hour in hot weather, or longer in cold weather, vaccine in cold water, and provide enough water space so that 2/3 birds of the flock can drink at one time. Add 0.1% powdered skim milk as stabilizer. All vaccine should be consumed within 45 minutes.</string>
+    <string name="DrugAdministrationHeader">METHODS OF DRUG ADMINISTRATION TO DISEASED POULTRY FLOCKS</string>
+    <string name="DrugGeneralContent">Commonly used drugs include – antibiotics, anticoccidial, antihistomonals and growth promotants</string>
+    <string name="InFeedHeader">In Feed</string>
+    <string name="InFeedCOntent">In Feed: Often used in preventive or long-term medication. Must be done when mixing feed and requires planning so that delivery and storage on the farm does not delay treatment. Requires no additional work at the farm.</string>
+    <string name="DrinkingWaterHeader">Drinking Water</string>
+    <string name="DrinkingWaterContent">In Drinking Water: Must be done at the farm and requires supervision. Compared to feed administration there is no delay in administration or withdrawal, prompt absorption and convenient to use. Birds may continue to drink when sick and “off feed”.</string>
+    <string name="DustHeader">Topical Spray or Dust</string>
+    <string name="DustContent">Topical Spray or Dust: (for Ectoparasites)</string>
+    <string name="EggDippingHeader">Egg Dipping</string>
+    <string name="EggDippingContent">Egg Dipping: Must be done at the hatchery under controlled conditions. Usually results in reduced hatchability or fertility (e.g. antibiotics to control egg transmissible diseases such as mycoplasma).</string>
+    <string name="BirdInjectionHeader">Individual Bird Injection</string>
+    <string name="BirdInjectionContent">Individual Bird Injection: Expensive labor use and time consuming, but sometimes necessary in severe disease or when drug of choice is non-absorbable (e.g. antibiotics).</string>
+    <string name="GeneralNote">Note: Some drugs or antibiotics require pre slaughter withdrawal time or are not permitted for use in laying birds.</string>
+    <!--Treatment Application  Ending-->
+
 
     <string name="title_activity_website">Website</string>
     <string name="title_activity_vaccine__table">Vaccine_Table</string>
@@ -284,4 +320,5 @@
     <string name="title_activity_mycotic">MycoticActivity</string>
     <string name="title_activity_aspergillosis">AspergillosisActivity</string>
     <string name="title_activity_polyneuritis">PolyneuritisActivity</string>
+    <string name="title_activity_treatment_application">TreatmentApplicationActivity</string>
 </resources>
