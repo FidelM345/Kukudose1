@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="com.example.fidelmomolo.kukudose1.LaryngotracheitisActivity"
+    tools:showIn="@layout/activity_laryngotracheitis"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/chicken1"
+        android:scaleType="centerCrop"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Laryngotracheitis_About"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/headerColor"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Laryngotracheitis_About1"
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Laryngotracheities_Cause"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/headerColor"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Laryngotracheities_Cause1"
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Laryngotracheitis_Signs"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/headerColor"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Laryngotracheitis_Signs1"
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Laryngotracheitis_Treatment"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/headerColor"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Laryngotracheitis_Treatment1"
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Larngtresceities_Control"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/headerColor"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Larngtresceities_Control1"
+            android:textSize="18sp"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

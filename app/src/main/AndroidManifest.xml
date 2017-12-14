@@ -46,6 +46,87 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
         </activity>
+        <activity
+            android:name=".NewCastleActivity"
+            android:label="@string/title_activity_new_castle"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".AvianInfluenzaActivity"
+            android:label="@string/title_activity_avian_influenza"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".InfectiousBronchitiesActivity"
+            android:label="@string/title_activity_infectious_bronchities"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".LaryngotracheitisActivity"
+            android:label="@string/title_activity_laryngotracheitis"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".EasternEquineEncephalitisActivity"
+            android:label="@string/title_activity_eastern_equine_encephalitis"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".FowlCholeraActivity"
+            android:label="@string/title_activity_fowl_cholera"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".FowlTyphoidActivity"
+            android:label="@string/title_activity_fowl_typhoid"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".MycoplasmaGallisepticumActivity"
+            android:label="@string/title_activity_mycoplasma_gallisepticum"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
+        <activity
+            android:name=".MareksActivity"
+            android:label="@string/title_activity_mareks"
+            android:parentActivityName=".Respiratory_Disease"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+        </activity>
     </application>
 
 </manifest>
