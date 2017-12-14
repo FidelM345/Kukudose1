@@ -40,7 +40,7 @@ public class Website extends AppCompatActivity {
         };
 
 
-        ListAdapter lady=new CustomAdapter(this,description,imgid);
+        ListAdapter lady=new Custom_RecyclerAdapter(this,description,imgid);
 
         listView.setAdapter(lady);
         listeners();

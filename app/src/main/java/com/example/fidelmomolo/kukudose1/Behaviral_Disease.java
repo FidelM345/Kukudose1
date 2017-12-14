@@ -11,26 +11,24 @@ import android.widget.AdapterView;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
-public class Respiratory_Disease extends AppCompatActivity {
-ListView listView;
-
+public class Behaviral_Disease extends AppCompatActivity {
+    ListView listView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_respiratory__disease);
+        setContentView(R.layout.activity_behaviral__disease);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("Nervous Disease");
         setSupportActionBar(toolbar);
 
-        listView=(ListView) findViewById(R.id.list_res);
+        listView=(ListView) findViewById(R.id.list_behav);
 
-        String[]description=getResources().getStringArray(R.array.Respiratory_diseases);
+        String[]description=getResources().getStringArray(R.array.Nervous_diseases);
 
         Integer[] imgid={
                 R.drawable.fresheggs,
                 R.drawable.avian_influenza,
-                R.drawable.infectious_bronchitis,
-                R.drawable.laryngotracheitis
-
+                R.drawable.infectious_bronchitis
         };
 
         ListAdapter lady=new CustomAdapter(this,description,imgid);
@@ -46,28 +44,26 @@ ListView listView;
 
                 if(number==0){
 
-                    Intent i=new Intent(Respiratory_Disease.this,NewCastleActivity.class);
+                    Intent i=new Intent(Behaviral_Disease.this,MareksActivity.class);
                     startActivity(i);
                 }
 
-               else if(number==1){
+                else if(number==1){
 
-                    Intent i=new Intent(Respiratory_Disease.this,AvianInfluenzaActivity.class);
+                    Intent i=new Intent(Behaviral_Disease.this,FowlCholeraActivity.class);
                     startActivity(i);
                 }
-               else if(number==2){
+                else if(number==2){
 
-                    Intent i=new Intent(Respiratory_Disease.this,InfectiousBronchitiesActivity.class);
+                    Intent i=new Intent(Behaviral_Disease.this,EasternEquineEncephalitisActivity.class);
                     startActivity(i);
                 }
-                else if(number==3){
 
-                    Intent i=new Intent(Respiratory_Disease.this,LaryngotracheitisActivity.class);
-                    startActivity(i);
-                }
 
             }
         });
+
+
 
 
 

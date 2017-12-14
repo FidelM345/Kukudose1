@@ -11,7 +11,7 @@
     tools:showIn="@layout/activity_respiratory__disease">
 
     <ListView
-        android:id="@+id/list_res"
+        android:id="@+id/list_fungi"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

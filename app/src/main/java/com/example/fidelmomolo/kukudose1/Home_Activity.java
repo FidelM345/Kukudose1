@@ -6,6 +6,7 @@ import android.speech.RecognizerIntent;
 import android.speech.tts.TextToSpeech;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.widget.CardView;
 import android.text.Html;
 import android.text.TextUtils;
 import android.view.View;
@@ -32,6 +33,7 @@ public class Home_Activity extends AppCompatActivity
     MaterialSearchView searchView;
     TextToSpeech engine;
     float pitchRate=1f,speedRate=1f;
+    CardView cardView1,cardView2,cardView3,cardView4,cardView5,cardView6,cardView7,cardView8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,6 +42,21 @@ public class Home_Activity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         toolbar.setTitle("Kuku Dose");
         setSupportActionBar(toolbar);
+
+
+        cardView1=findViewById(R.id.Respiratory_card);
+        cardView2=findViewById(R.id.behavior);
+        cardView3=findViewById(R.id.intestine);
+        cardView4=findViewById(R.id.parasitic);
+        cardView5=findViewById(R.id.lame);
+        cardView6=findViewById(R.id.skin);
+        cardView7=findViewById(R.id.nutritional);
+        cardView8=findViewById(R.id.fungal);
+
+
+
+
+
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -52,19 +69,112 @@ public class Home_Activity extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
 
 
+
+        cardView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Home_Activity.this,Respiratory_Disease.class);
+                startActivity(i);
+                // Toast.makeText(Home_Activity.this,"am coming",Toast.LENGTH_LONG).show();
+            }
+        });
+
+        cardView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Home_Activity.this,Behaviral_Disease.class);
+                startActivity(i);
+                // Toast.makeText(Home_Activity.this,"am coming",Toast.LENGTH_LONG).show();
+            }
+        });
+
+        cardView3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Home_Activity.this,Intestine.class);
+                startActivity(i);
+                // Toast.makeText(Home_Activity.this,"am coming",Toast.LENGTH_LONG).show();
+            }
+
+        });
+
+
+
+
+        cardView4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Home_Activity.this,Lame.class);
+                   startActivity(i);
+
+            }
+
+        });
+
+        cardView5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Home_Activity.this,Lame.class);
+                startActivity(i);
+
+            }
+
+        });
+
+        cardView6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Home_Activity.this,Skin_disease.class);
+                startActivity(i);
+
+            }
+
+        });
+
+        cardView7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Home_Activity.this,Skin_disease.class);
+                startActivity(i);
+
+            }
+
+        });
+        cardView8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i=new Intent(Home_Activity.this,Skin_disease.class);
+                startActivity(i);
+
+            }
+
+        });
+
+
+
+
+
+
         search_code();// calling search view to act
 
         engine=new TextToSpeech(this,this);//initiallizing the TTS engine
 
 
-
+     // cardview_listener();//handling event listeners for all card views in the Home activity
 
 
     }
 
+
+    public void cardview_listener(){
+
+
+    }
+
+
     private void search_code() {
         searchView=(MaterialSearchView)findViewById(R.id.search_view);
-    //    searchView.setSuggestions(getResources().getStringArray(R.array.clubs));
+      searchView.setSuggestions(getResources().getStringArray(R.array.Search_prediction));
 
         searchView.setHint("Quick disease search");
         searchView.setVoiceSearch(true);
@@ -173,12 +283,13 @@ public class Home_Activity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_TTS) {
-            Toast.makeText(Home_Activity.this,"You have selected TTS",Toast.LENGTH_LONG).show();
+            Toast.makeText(Home_Activity.this,"Read the app contents",Toast.LENGTH_LONG).show();
             speak();
             return true;
         }
        else if (id == R.id.action_settings) {
-            Toast.makeText(Home_Activity.this,"You have selected settings",Toast.LENGTH_LONG).show();
+            Toast.makeText(Home_Activity.this,"Stop reading the app contents",Toast.LENGTH_LONG).show();
+            engine.stop();
             return true;
         }
 
@@ -247,7 +358,13 @@ public class Home_Activity extends AppCompatActivity
                 "The categories of poultry diseases discussed in the app include:",
                 "1. Respiratory diseases",
                 "2. Behavioural diseases",
-                "3. Intestinal diseases"
+                "3. Intestinal diseases",
+                "4. Parasitic diseases",
+                "5. Causes of Lameness",
+                "6. Skin Infections",
+                "7. Nutritional diseases",
+                "8. Intestinal diseases"
+
 
 
         };

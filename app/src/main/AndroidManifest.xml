@@ -47,6 +47,72 @@
                 android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
         </activity>
         <activity
+
+            android:name=".Behaviral_Disease"
+            android:label="@string/title_activity_behaviral__disease"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
+        <activity
+            android:name=".Intestine"
+            android:label="@string/title_activity_intestine"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
+        <activity
+            android:name=".Lame"
+            android:label="@string/title_activity_lame"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
+        <activity
+            android:name=".Skin_disease"
+            android:label="@string/title_activity_skin_disease"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
+        <activity
+            android:name=".Parasitic"
+            android:label="@string/title_activity_parasitic"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
+        <activity
+            android:name=".Nutritional"
+            android:label="@string/title_activity_nutritional"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
+
+        <activity
+            android:name=".Fungal"
+            android:label="@string/title_activity_fungal"
+            android:parentActivityName=".Home_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
+        </activity>
+
+        <activity
             android:name=".NewCastleActivity"
             android:label="@string/title_activity_new_castle"
             android:parentActivityName=".Respiratory_Disease"
@@ -55,6 +121,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
         </activity>
+
+
         <activity
             android:name=".AvianInfluenzaActivity"
             android:label="@string/title_activity_avian_influenza"
@@ -126,6 +194,7 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fidelmomolo.kukudose1.Respiratory_Disease" />
+<<<<<<< HEAD
         </activity>
         <activity
             android:name=".FowlPoxActivity"
@@ -198,6 +267,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.fidelmomolo.kukudose1.Home_Activity" />
         </activity>
+=======
+     </activity>
+>>>>>>> eeba2d761f3a9aca8a308a2c5196ee64274f2f0d
     </application>
 
 </manifest>

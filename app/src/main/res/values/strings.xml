@@ -40,9 +40,65 @@
         <item> Feed Spot</item>
     </string-array>
 
-    <string name="names12">
-        &#8226;name1\n&#8226;name2
-    </string>
+    <string-array name="Respiratory_diseases">
+        <item> Newcastle</item>
+        <item> Avian Influenza</item>
+        <item> Infectious Bronchitis</item>
+        <item> Laryngotracheitis</item>
+    </string-array>
+
+
+    <string-array name="Nervous_diseases">
+        <item> Marek's Disease</item>
+        <item> Fowl Cholera</item>
+        <item> Eastern equine encephacitis</item>
+
+    </string-array>
+
+
+    <string-array name="Intestinal_diseases">
+        <item> Fowl Typhoid</item>
+        <item> Gumboro</item>
+        <item> Worms</item>
+
+    </string-array>
+
+
+    <string-array name="Search_prediction">
+        <item>Newcastle</item>
+        <item> Avian Influenza</item>
+        <item>Infectious Bronchitis</item>
+        <item>Laryngotracheitis</item>
+        <item>Marek's</item>
+        <item>Eastern equine encephacitis</item>
+        <item>Fowl cholera</item>
+        <item>Fowl Typhoid</item>
+        <item>Colibacillosis</item>
+        <item>Pullorum</item>
+        <item>Viral athritis</item>
+        <item>Bumblefoot</item>
+        <item>Fowl Cholera</item>
+        <item>Mycoplasma galliseptum</item>
+        <item>Fowl pox</item>
+        <item>Mites</item>
+
+    </string-array>
+
+
+    <string-array name="lame_diseases">
+        <item> Marek's Disease</item>
+        <item> Fowl Typhoid</item>
+        <item> Fowl cholera</item>
+
+    </string-array>
+
+
+    <string-array name="skin_diseases">
+        <item> Fowl pox</item>
+        <item> Mites</item>
+        <item> Mycoplasma</item>
+
+    </string-array>
 
     <!--specific Diseases Headers-->
     <string name="AboutHeader">About</string>
@@ -303,6 +359,15 @@
     <string name="title_activity_website">Website</string>
     <string name="title_activity_vaccine__table">Vaccine_Table</string>
     <string name="title_activity_respiratory__disease">Respiratory_Disease</string>
+
+    <string name="title_activity_behaviral__disease">Behaviral_Disease</string>
+    <string name="title_activity_intestine">Intestine</string>
+    <string name="title_activity_lame">Lame</string>
+    <string name="title_activity_skin_disease">Skin Infections</string>
+    <string name="title_activity_parasitic">Parasitic</string>
+    <string name="title_activity_nutritional">Nutritional</string>
+    <string name="title_activity_fungal">Fungal</string>
+
     <string name="title_activity_new_castle">NewCastle</string>
     <string name="title_activity_avian_influenza">Avian Influenza</string>
     <string name="title_activity_infectious_bronchities">Infectious Bronchities</string>

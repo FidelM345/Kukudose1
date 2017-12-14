@@ -40,7 +40,7 @@
              android:layout_width="0dp"
              android:padding="0dp"
              android:layout_columnWeight="1"
-
+             android:id="@+id/Respiratory_card"
              android:layout_margin="10dp"
              app:cardElevation="18dp"
              app:cardCornerRadius="1dp">
@@ -56,7 +56,7 @@
                      android:layout_width="match_parent"
                      android:layout_height="0dp"
                      android:layout_weight="3"
-                     android:src="@drawable/chelsea"/>
+                     android:src="@drawable/resp"/>
                  <TextView
                      android:layout_gravity="center_horizontal"
                      android:text="@string/Respiratory"
@@ -72,6 +72,7 @@
 
          </android.support.v7.widget.CardView>
          <android.support.v7.widget.CardView
+             android:id="@+id/behavior"
              android:layout_height="180dp"
              android:layout_width="0dp"
              android:padding="0dp"
@@ -92,10 +93,10 @@
                      android:layout_width="match_parent"
                      android:layout_height="0dp"
                      android:layout_weight="3"
-                     android:src="@drawable/chelsea"/>
+                     android:src="@drawable/behavior"/>
                  <TextView
                      android:layout_gravity="center_horizontal"
-                     android:text="@string/behavioral"
+                     android:text="Nervous"
                      android:textAlignment="center"
                      android:textColor="@android:color/black"
                      android:textSize="18sp"
@@ -112,7 +113,7 @@
              android:layout_width="0dp"
              android:padding="0dp"
              android:layout_columnWeight="1"
-
+             android:id="@+id/intestine"
              android:layout_margin="10dp"
              app:cardElevation="18dp"
              app:cardCornerRadius="1dp">
@@ -128,7 +129,7 @@
                      android:layout_width="match_parent"
                      android:layout_height="0dp"
                      android:layout_weight="3"
-                     android:src="@drawable/chelsea"/>
+                     android:src="@drawable/intesti"/>
                  <TextView
                      android:layout_gravity="center_horizontal"
                      android:text="@string/Intestinal"
@@ -144,6 +145,7 @@
 
          </android.support.v7.widget.CardView>
          <android.support.v7.widget.CardView
+             android:id="@+id/parasitic"
              android:layout_height="180dp"
              android:layout_width="0dp"
              android:padding="0dp"
@@ -164,7 +166,7 @@
                      android:layout_width="match_parent"
                      android:layout_height="0dp"
                      android:layout_weight="3"
-                     android:src="@drawable/chelsea"/>
+                     android:src="@drawable/parasitic"/>
                  <TextView
                      android:layout_gravity="center_horizontal"
                      android:text="@string/Parasitic"
@@ -183,6 +185,7 @@
              android:layout_height="180dp"
              android:layout_width="0dp"
              android:padding="0dp"
+             android:id="@+id/lame"
              android:layout_columnWeight="1"
 
              android:layout_margin="10dp"
@@ -200,7 +203,7 @@
                      android:layout_width="match_parent"
                      android:layout_height="0dp"
                      android:layout_weight="3"
-                     android:src="@drawable/chelsea"/>
+                     android:src="@drawable/lame"/>
                  <TextView
                      android:layout_gravity="center_horizontal"
                      android:text="@string/lame"
@@ -220,7 +223,7 @@
              android:layout_width="0dp"
              android:padding="0dp"
              android:layout_columnWeight="1"
-
+             android:id="@+id/skin"
              android:layout_margin="10dp"
              app:cardElevation="18dp"
              app:cardCornerRadius="1dp">
@@ -236,7 +239,7 @@
                      android:layout_width="match_parent"
                      android:layout_height="0dp"
                      android:layout_weight="3"
-                     android:src="@drawable/chelsea"/>
+                     android:src="@drawable/skin"/>
                  <TextView
                      android:layout_gravity="center_horizontal"
                      android:text="@string/Skin"
@@ -252,6 +255,7 @@
 
          </android.support.v7.widget.CardView>
          <android.support.v7.widget.CardView
+             android:id="@+id/nutritional"
              android:layout_height="180dp"
              android:layout_width="0dp"
              android:padding="0dp"
@@ -272,7 +276,7 @@
                      android:layout_width="match_parent"
                      android:layout_height="0dp"
                      android:layout_weight="3"
-                     android:src="@drawable/chelsea"/>
+                     android:src="@drawable/nutritional1"/>
                  <TextView
                      android:layout_gravity="center_horizontal"
                      android:text="@string/Nutritional"
@@ -288,6 +292,7 @@
 
          </android.support.v7.widget.CardView>
          <android.support.v7.widget.CardView
+             android:id="@+id/fungal"
              android:layout_height="180dp"
              android:layout_width="0dp"
              android:padding="0dp"
@@ -308,7 +313,7 @@
                      android:layout_width="match_parent"
                      android:layout_height="0dp"
                      android:layout_weight="3"
-                     android:src="@drawable/chelsea"/>
+                     android:src="@drawable/fungal"/>
                  <TextView
                      android:layout_gravity="center_horizontal"
                      android:text="@string/fungi"
